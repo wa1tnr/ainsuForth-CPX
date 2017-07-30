@@ -2,9 +2,10 @@
 // 4735-b0b-05-
 
 // poor practice -- hard coded the answer:
-// #ifdef HAS_DOTSTAR_LIB
-#ifndef HAS_DOTSTAR_LIB
-#define HAS_DOTSTAR_LIB
+#ifdef HAS_DOTSTAR_LIB
+// d#ifndef HAS_DOTSTAR_LIB
+// #define HAS_DOTSTAR_LIB
+#undef HAS_DOTSTAR_LIB
 #endif
 
 #ifdef HAS_DOTSTAR_LIB
@@ -198,7 +199,8 @@ void setup(void) {
   pHere = &forthSpace[0];
   pOldHere = pHere;
   
-  Serial.print("\n warm boot message - early bird.  //  Gemma M0 29 Jul 2017\r\n          type 'warm' to reboot"); // instant confirmation
+  // Serial.print("\n warm boot message - early bird.  //  Gemma M0 29 Jul 2017\r\n          type 'warm' to reboot"); // instant confirmation
+  Serial.print("\n warm boot message - early bird.  //  Adafruit CPlay Express (CPX)\r\n      snapshot 29 Jul 2017\r\n          type 'warm' to reboot"); // instant confirmation
 
   // Serial.println("\r\nainsuForth -- main dev -- SEEN.\r\n    KELEFICOO  21:10z or later.\r\n");
 
