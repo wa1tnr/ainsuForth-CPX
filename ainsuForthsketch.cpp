@@ -190,6 +190,8 @@ void setup(void) {
 
 
 #define HAS_SPI_FLASH_DEMO
+#undef HAS_SPI_FLASH_DEMO
+
 #ifdef HAS_SPI_FLASH_DEMO
   setup_spi_flash();
   read_from_code_py_file();

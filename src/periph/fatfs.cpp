@@ -248,10 +248,6 @@ void read_from_code_py_file(void) {
 
 
 
-
-
-
-
 void tail_code_bb(void) {
   // You can open a directory to list all the children (files and directories).
   // Just like the SD library the File type represents either a file or directory.
@@ -330,7 +326,6 @@ void tail_code_bb(void) {
 
 
 
-
 #ifdef HAS_STANDARD_BUILD_HERE
   Serial.println("Listing children of directory /lib:");
   File child = testDir.openNextFile();
@@ -349,8 +344,6 @@ void tail_code_bb(void) {
   }
 
 
-
-
   // If you want to list the files in the directory again call
   // rewindDirectory().  Then openNextFile will start from the
   // top again.
@@ -359,14 +352,7 @@ void tail_code_bb(void) {
 
 
 
-
-
-
-
-
-
 #ifdef HAS_EXTRA_STANDARD_BUILD_HERE
-
 
   // Delete a file with the remove command.  For example create a test2.txt file
   // inside /test/foo and then delete it.
@@ -408,15 +394,14 @@ void spi_flash_main(void) {
   create_test_directory();
   // write_a_test_file();
   // read_a_test_file();
-  read_from_code_py_file();
-
+  read_from_code_py_file(); 
   tail_code_bb();
 
 }
 
-void loop_flash_main(void) {
+// void loop_flash_main(void) {
   // Nothing to be done in the main loop.
-  delay(100);
-}
+  // delay(100);
+// }
 
 // END.

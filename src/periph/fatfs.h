@@ -21,4 +21,4 @@ extern void read_from_code_py_file(void);
 extern void tail_code_bb(void);
 
 extern void spi_flash_main(void);
-extern void loop_flash_main(void);
+// extern void loop_flash_main(void);
