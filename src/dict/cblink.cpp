@@ -26,11 +26,13 @@ void _cblink(void) {
 void _mblink(void) {
 #ifdef HAS_NEO_PIXEL_LIB
   // _cyan();
+  // _dullMagenta();
   _dullMagenta();
   delay(100);
   _darkNPX();
 #endif
 }
+
 
 /******************************************************************************/
 /**                                                                          **/

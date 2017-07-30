@@ -1,24 +1,31 @@
-// Fri Jun  9 02:32:35 UTC 2017
-// 4735-a0f
+// Sun Jul 30 02:55:32 UTC 2017
+// 4735-b0b-09-
 
 
 This is a skeletal file and at the moment is to be ignored, as
 are most of the files added or modified on June 6, 2017.
 
 NEXT:
+	Sun Jul 30 02:55:32 UTC 2017
+	Cycle Metro source to Feather, then to CPX and clone CPX back
+	to the base program (ainsuForth).
+
+	Develop for CPX, moving (possibly) into SPI flash stuff.
+
+OLD_NEXT:
 	Thu Jun  8 21:52:01 UTC 2017
 	in HARDWARE.local.txt:
 
         blinkApp needs to be factored - has stack management kludge(s).
 
-OLD_NEXT:
+OLDER_NEXT:
 	Tue Jun  6 19:06:03 UTC 2017
 
 	Try splitting and renaming and relocating code, without the
 	removal of commented code (from Dictionary.ino comment.)
 
 
-OLDER_NEXT:
+OLDEST_NEXT:
 	Tue Jun  6 05:32:17 UTC 2017
 
 	finish stripping the program prior to putting the pieces back
