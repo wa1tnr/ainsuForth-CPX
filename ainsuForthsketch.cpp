@@ -8,6 +8,11 @@
 #undef HAS_DOTSTAR_LIB
 #endif
 
+
+// FAT fileystem:
+#include "src/periph/fatfs.h"
+
+
 #ifdef HAS_DOTSTAR_LIB
 #include "src/periph/dotstar.h"
 #endif
@@ -182,6 +187,13 @@ void setup(void) {
   while (!Serial) {
     blink_m();
   }
+
+
+#define HAS_SPI_FLASH_DEMO
+#ifdef HAS_SPI_FLASH_DEMO
+  setup_spi_flash();
+  read_from_code_py_file();
+#endif
 
 
   delay(3 * 100); // 300 ms
