@@ -1,5 +1,13 @@
+// Sun Nov 19 22:41:41 UTC 2017
+// 4735-b0c-09a-   the -09x- is new Nov 19, 2017.
+
+// 19 Nov 2017 goal: validate this is still functioning CPX.  Import differences from gemma m0 work done earlier today.
+
+// previous timestamps:
+// Sun Nov 19 06:40:33 UTC 2017
 // Sun Jul 30 02:55:32 UTC 2017
 // 4735-b0b-09-
+
 
 // QUAVRO  MUVAK
 
